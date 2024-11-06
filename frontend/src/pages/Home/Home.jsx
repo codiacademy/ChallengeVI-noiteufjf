@@ -13,6 +13,10 @@ import { Globe, Copy, Smartphone } from 'lucide-react';
 import LogoMagic from '../../img/LogoMagic.png';
 import Awards from '../../components/Awards/Awards';
 
+import client1 from '../../img/Logoquadrada.png';
+import client2 from '../../img/Logoquadrada.png';
+import client3 from '../../img/Logoquadrada.png';
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './home.css';
@@ -134,9 +138,31 @@ export default function Home() {
         </h1>
         {isDesktop ? (
           <div id="desktop-cardstestimony">
-            <Cardtestimony />
-            <Cardtestimony />
-            <Cardtestimony />
+            <Cardtestimony
+              paragraph={'Sites e aplicativos pré-prontos customizados.'}
+              name={'Yuri'}
+              office={'CEO'}
+              enterprise={'Codi Magic'}
+              image={client1}
+            />
+            <Cardtestimony
+              paragraph={
+                'Apps intuitivos e de alta performance para iOS e Android.'
+              }
+              name={'Yuri'}
+              office={'CEO'}
+              enterprise={'Codi Magic'}
+              image={client2}
+            />
+            <Cardtestimony
+              paragraph={
+                'Soluções personalizadas para pequenas e médias empresas.'
+              }
+              name={'Yuri'}
+              office={'CEO'}
+              enterprise={'Codi Magic'}
+              image={client3}
+            />
           </div>
         ) : (
           <Swiper
