@@ -1,103 +1,47 @@
-import patricio from "../images/patricio.jpeg";
-import lucas from "../images/lucas.png";
-import leonardoA from "../images/leonardoA.jpeg";
-import lorena from "../images/lorena.jpeg";
-import john from "../images/john.png";
-import esther from "../images/esther.png";
-import nicolas from "../images/nicolas.png";
-import vinicius from "../images/vinicius.png";
-import leonardoC from "../images/leonardoC.png";
+import yuri from '../images/yuri.png';
+import lucas from '../images/lucas.png';
+import bruno from '../images/bruno.png';
+import fernando from '../images/fernando.png';
 
 export const teamData = [
   {
-    id: 1,
-    image: esther,
-    name: "Esther Moraes",
-    role: "Desenvolvedora Frontend",
+    id: 0,
+    image: yuri,
+    name: 'Yuri Medeiros',
+    role: 'Desenvolvedor FullStack - Sênior',
     description:
-      "Dedicada em criar soluções web dinâmicas e bem estruturadas. Tecnologias: HTML, CSS e Javascript.",
-    gitHubLink: "https://github.com/esthermoraes777",
-    linkedinLink: "",
+      'Especialista em tecnologias JavaScript, com foco em React JS e Node JS. Programador de soluções voltadas para a análise de dados com Python e Pandas.Desenvolvedor de jogos em Godot/Gdscript.',
+    gitHubLink: 'https://github.com/Yurimeds',
+    linkedinLink: 'https://www.linkedin.com/in/yuri-medeiros-3a4a2a1b8/',
+  },
+  {
+    id: 1,
+    image: bruno,
+    name: 'Bruno Gonçalves',
+    role: 'Desenvolvedor FullStack - Pleno',
+    description:
+      'Desenvolvedor FullStack com foco em Javascript, React, Node.js, TypeScript, Git e GitHub. Apaixonado por tecnologias que ajudam a construir soluções inovadoras.',
+    gitHubLink: 'https://github.com/brunogoncalvesferreira',
+    linkedinLink: 'https://www.linkedin.com/in/bruno-goncalves-ferreira/',
   },
   {
     id: 2,
-    image: john,
-    name: "John Fidelis",
-    role: "Desenvolvedor Frontend",
+    image: fernando,
+    name: 'Fernando Zuchi',
+    role: 'Desenvolvedor FullStack - Júnior',
     description:
-      "Focado na criação de soluções praticas e inovadoras em toda área de T.I e grande entusiasta em tecnologias. Tecnologias: HTML, JS e CSS.",
-    gitHubLink: "https://github.com/JohnFideliss",
-    linkedinLink: "https://www.linkedin.com/in/john-fid%C3%A9lis-941682268/",
+      'Apaixonado em aprender coisas novas e usá-las para desenvolver projetos e criar soluções, focado em Web-Design e desenvolvimento de software para empresas parceiras. Tecnologias: React JS | Node JS | React Native | .NET',
+    gitHubLink: 'https://github.com/FernandoZuchi',
+    linkedinLink: 'https://linkedin.com/in/fernando-zuchi-ozorio-87350b269',
   },
   {
     id: 3,
-    image: leonardoA,
-    name: "Leonardo Almeida",
-    role: "Desenvolvedor Frontend",
-    description:
-      "Dedicado em sempre transformar ideias em interfaces funcionais e estéticas. Tecnologias: Javascript, React, Git/Github, Tailwind CSS.",
-    gitHubLink: "https://github.com/Leonardo-ACc",
-    linkedinLink: "",
-  },
-  {
-    id: 4,
-    image: leonardoC,
-    name: "Leonardo da Costa",
-    role: "Desenvolvedor Backend",
-    description:
-      "Engajado com planejamento, coordenação e entrega dos projetos com eficiência e organização.",
-    gitHubLink: "https://github.com/leonardotmcosta",
-    linkedinLink: "",
-  },
-  {
-    id: 5,
-    image: lorena,
-    name: "Lorena de Oliveira",
-    role: "Desenvolvedora Frontend",
-    description:
-      "Entusiasta na criação de experiências digitais inovadoras. Tecnologias: html, css, Javascript, React.",
-    gitHubLink: "https://github.com/lohnogs",
-    linkedinLink:
-      "https://www.linkedin.com/in/lorena-de-oliveira-albuquerque-281500323/",
-  },
-  {
-    id: 6,
     image: lucas,
-    name: "Lucas Cintra",
-    role: "Desenvolvedor FullStack",
+    name: 'Lucas Cintra',
+    role: 'Desenvolvedor FullStack - Júnior',
     description:
-      "Comprometido em desenvolver soluções escaláveis e inovadoras. Tecnologias: Node.js, TypeScript, Javascript, React, Tailwind CSS, GitHub.",
-    gitHubLink: "https://github.com/lucasrvcintra",
-    linkedinLink: "https://www.linkedin.com/in/lucasr-cintra/",
-  },
-  {
-    id: 7,
-    image: nicolas,
-    name: "Nícolas Reis",
-    role: "Desenvolvedor Frontend",
-    description:
-      "Portador do interesse em práticas e criações tecnológicas, buscando cada vez mais o aperfeiçoamento nas áreas. Tecnologias: HTML, CSS e JavaScript.",
-    gitHubLink: "https://github.com/Nreis421",
-    linkedinLink: "https://www.linkedin.com/in/nícolas-reis-36779b323",
-  },
-  {
-    id: 8,
-    image: patricio,
-    name: "Patrício Samuel",
-    role: "Desenvolvedor Frontend",
-    description:
-      "Apaixonado por transformar ideias em experiências digitais impactantes. Tecnologias: Javascript, React, Git, Tailwind CSS.",
-    gitHubLink: "https://github.com/PatricioSA",
-    linkedinLink: "https://www.linkedin.com/in/patriciosamuel",
-  },
-  {
-    id: 9,
-    image: vinicius,
-    name: "Vinícius Oliveira",
-    role: "Desenvolvedor Backend",
-    description:
-      "Buscando sempre soluções inovadoras, com arquitetura segundo convenções do mercado. Tecnologias: Node.Js, Jwt, Prisma, SQLite, Git/Github",
-    gitHubLink: "https://github.com/vinicius-oliveiracr",
-    linkedinLink: "https://www.linkedin.com/in/vinícius-oliveiracr",
+      'Comprometido em desenvolver soluções escaláveis e inovadoras. Tecnologias:  React JS | React Native | Node JS | Nest JS | Docker | Typescript | Javascript | HTML | CSS | GIT | Bootstrap | Styled Components | TailwindCSS | Shadcn',
+    gitHubLink: 'https://github.com/lucasrvcintra',
+    linkedinLink: 'https://www.linkedin.com/in/lucasr-cintra/',
   },
 ];
