@@ -1,22 +1,22 @@
-import { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-cards";
-import { EffectCards, EffectCoverflow, Pagination } from "swiper/modules";
-import Cardtestimony from "../../components/Cardtestimony/Cardtestimony";
-import ContactForm from "../../components/Form/ContactForm";
-import clientenota from "../../img/clientenota.png";
-import ServicesCard from "../../components/ServicesCards/ServicesCards";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import { Globe, Copy, Smartphone } from "lucide-react";
-import LogoMagic from "../../img/LogoMagic.png";
-import Awards from "../../components/Awards/Awards";
+import { useState, useEffect } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-cards';
+import { EffectCards, EffectCoverflow, Pagination } from 'swiper/modules';
+import Cardtestimony from '../../components/Cardtestimony/Cardtestimony';
+import ContactForm from '../../components/Form/ContactForm';
+import clientenota from '../../img/clientenota.png';
+import ServicesCard from '../../components/ServicesCards/ServicesCards';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import { Globe, Copy, Smartphone } from 'lucide-react';
+import LogoMagic from '../../img/LogoMagic.png';
+import Awards from '../../components/Awards/Awards';
 
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import "./home.css";
-import AboutUs from "../../components/AboutUs/AboutUs";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './home.css';
+import AboutUs from '../../components/AboutUs/AboutUs';
 
 export default function Home() {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1024);
@@ -26,13 +26,13 @@ export default function Home() {
       setIsDesktop(window.innerWidth > 1024);
     };
 
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
   const notify = (message, type) => {
-    if (type === "success") {
+    if (type === 'success') {
       toast.success(message);
-    } else if (type === "error") {
+    } else if (type === 'error') {
       toast.error(message);
     }
   };
@@ -68,10 +68,10 @@ export default function Home() {
       <section id="services-section" className="home-section">
         <h1 className="title">Nossos serviços</h1>
         <Swiper
-          effect={"coverflow"}
+          effect={'coverflow'}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={"auto"}
+          slidesPerView={'auto'}
           coverflowEffect={{
             rotate: 0,
             stretch: -80,
@@ -87,29 +87,29 @@ export default function Home() {
           <SwiperSlide>
             <ServicesCard
               icon={<Copy size={50} />}
-              title={"Templates"}
-              paragraph={"Sites e aplicativos pré-prontos customizados."}
-              iconBackground={"#FE0101"}
+              title={'Templates'}
+              paragraph={'Sites e aplicativos pré-prontos customizados.'}
+              iconBackground={'#FE0101'}
             />
           </SwiperSlide>
           <SwiperSlide>
             <ServicesCard
               icon={<Globe size={50} />}
-              title={"Desenvolvimento de Software"}
+              title={'Desenvolvimento de Software'}
               paragraph={
-                "Soluções personalizadas para pequenas e médias empresas."
+                'Soluções personalizadas para pequenas e médias empresas.'
               }
-              iconBackground={"#FFC400"}
+              iconBackground={'#FFC400'}
             />
           </SwiperSlide>
           <SwiperSlide>
             <ServicesCard
               icon={<Smartphone size={50} />}
-              title={"Aplicativos Móveis"}
+              title={'Aplicativos Móveis'}
               paragraph={
-                "Aplicativos móveis intuitivos e de alta performance para iOS e Android."
+                'Apps intuitivos e de alta performance para iOS e Android.'
               }
-              iconBackground={"#2A60FF"}
+              iconBackground={'#2A60FF'}
             />
           </SwiperSlide>
         </Swiper>
@@ -140,7 +140,7 @@ export default function Home() {
           </div>
         ) : (
           <Swiper
-            effect={"cards"}
+            effect={'cards'}
             grabCursor={true}
             modules={[EffectCards]}
             className="mySwiper"
