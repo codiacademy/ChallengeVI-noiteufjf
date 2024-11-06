@@ -139,28 +139,30 @@ export default function Home() {
         {isDesktop ? (
           <div id="desktop-cardstestimony">
             <Cardtestimony
-              paragraph={'Sites e aplicativos pré-prontos customizados.'}
-              name={'Yuri'}
+              paragraph={
+                'Parcerias Preciosas! Cada vez mais, confirmamos que as boas parcerias, são fundamentais para a realização efetiva de nossos planos... Só temos a agradecer, pelo profissionalismo, orientações e interações, sempre de forma gentil e atenciosa. Desejamos que a caminhada de vocês continue sendo sempre, repleta de merecidas conquistas!'
+              }
+              name={'Cristina do Carmo Silva Campos'}
               office={'CEO'}
-              enterprise={'Codi Magic'}
+              enterprise={'EncontrARTE app'}
               image={client1}
             />
             <Cardtestimony
               paragraph={
-                'Apps intuitivos e de alta performance para iOS e Android.'
+                'É um alívio contar com uma ferramenta prática e confiável, além de termos a certeza de que nossa equipe tem o apoio necessário para fazer o melhor uso dela. Um parceiro essencial!'
               }
-              name={'Yuri'}
-              office={'CEO'}
-              enterprise={'Codi Magic'}
+              name={''}
+              office={'Cliente'}
+              enterprise={'Restaurante'}
               image={client2}
             />
             <Cardtestimony
               paragraph={
-                'Soluções personalizadas para pequenas e médias empresas.'
+                'O desenvolvimento do sistema para nosso comércio trouxe agilidade e praticidade para nossos clientes, refletindo diretamente na qualidade dos nossos serviços. A plataforma é intuitiva e segura, e cada etapa do processo de desenvolvimento foi marcada por profissionalismo e atenção às nossas necessidades.'
               }
-              name={'Yuri'}
-              office={'CEO'}
-              enterprise={'Codi Magic'}
+              name={''}
+              office={'Cliente'}
+              enterprise={'Gás na Mão'}
               image={client3}
             />
           </div>
@@ -172,16 +174,41 @@ export default function Home() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <Cardtestimony />
+              <Cardtestimony
+                paragraph={
+                  'Parcerias Preciosas! Cada vez mais, confirmamos que as boas parcerias, são fundamentais para a realização efetiva de nossos planos... Só temos a agradecer, pelo profissionalismo, orientações e interações, sempre de forma gentil e atenciosa. Desejamos que a caminhada de vocês continue sendo sempre, repleta de merecidas conquistas!'
+                }
+                name={'Cristina do Carmo Silva Campos'}
+                office={'CEO'}
+                enterprise={'EncontrARTE app'}
+                image={client1}
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <Cardtestimony />
+              <Cardtestimony
+                paragraph={
+                  'O desenvolvimento do sistema para nosso comércio trouxe agilidade e praticidade para nossos clientes, refletindo diretamente na qualidade dos nossos serviços. A plataforma é intuitiva e segura, e cada etapa do processo de desenvolvimento foi marcada por profissionalismo e atenção às nossas necessidades.'
+                }
+                name={''}
+                office={'Cliente'}
+                enterprise={'Gás na Mão'}
+                image={client3}
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <Cardtestimony />
+              <Cardtestimony
+                paragraph={
+                  'É um alívio contar com uma ferramenta prática e confiável, além de termos a certeza de que nossa equipe tem o apoio necessário para fazer o melhor uso dela. Um parceiro essencial!'
+                }
+                name={''}
+                office={'Cliente'}
+                enterprise={'Restaurante'}
+                image={client2}
+              />
             </SwiperSlide>
           </Swiper>
         )}
+
         <img src={clientenota} alt="Avatar de Avaliadores" />
       </section>
 
