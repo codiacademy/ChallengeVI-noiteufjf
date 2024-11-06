@@ -218,7 +218,11 @@ export default function Home() {
         <div className="contentContact">
           <div className="formCenter">
             <button>
-              <a href="#" className="link-button">
+              <a
+                href="https://forms.gle/YszdvrQCN1mAFGYh6"
+                target="_blank"
+                className="link-button"
+              >
                 Entre em Contato
               </a>
             </button>
