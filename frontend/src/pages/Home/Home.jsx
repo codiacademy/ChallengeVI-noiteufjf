@@ -202,7 +202,7 @@ export default function Home() {
                 }
                 name={''}
                 office={'Cliente'}
-                enterprise={'Restaurante'}
+                enterprise={'Sabor & Tradição'}
                 image={client2}
               />
             </SwiperSlide>
