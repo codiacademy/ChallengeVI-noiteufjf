@@ -52,14 +52,10 @@ header .logo-link:hover {
   padding: 0 0.5rem;
 }
 
-
-
 .mobile-nav-container button {
   border: none;
   background: none;
 }
-
-
 
 .mobile-nav {
   display: flex;
@@ -83,7 +79,19 @@ header .logo-link:hover {
   font-weight: 600;
 }
 
+.formCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
 
+.formCenter button {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
 .login-link {
   background-color: #300854;

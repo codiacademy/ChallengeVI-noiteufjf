@@ -1,10 +1,10 @@
-import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
-import { Menu } from "lucide-react";
-import "./header.css";
-import { UserContext } from "../../context/AppProvider";
-import ProfileDropdown from "../ProfileDropdown/ProfileDropdown";
-import LogoMagicRoxa from "../../img/LogoMagic2.png";
+import { useContext, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Menu } from 'lucide-react';
+import './header.css';
+import { UserContext } from '../../context/AppProvider';
+import ProfileDropdown from '../ProfileDropdown/ProfileDropdown';
+import LogoMagicRoxa from '../../img/LogoMagic2.png';
 
 export default function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -71,7 +71,8 @@ export default function Header() {
           <Link to="/team" className="links">
             Equipe
           </Link>
-          {user ? (
+          {/* descomentar quando subir o backend */}
+          {/* {user ? (
             <>
               <div className="spam-bemvindo">
                 <span>Bem-vindo, </span>
@@ -83,7 +84,7 @@ export default function Header() {
             <Link to="/login" className="login-link">
               Login
             </Link>
-          )}
+          )} */}
         </nav>
       </div>
     </header>

@@ -1,8 +1,9 @@
-import embrapa from '../../img/embrapa.png'
-import zencheck from '../../img/zencheck.png'
-import aleatorio from '../../img/aleatorio.png'
+import embrapa from '../../img/embrapa.png';
+import zencheck from '../../img/zencheck.png';
+import aleatorio from '../../img/aleatorio.png';
+import encontrarte from '../../img/encontrarte.jpg';
 
-import "./projects.css";
+import './projects.css';
 export default function Projects() {
   return (
     <section className="container">
@@ -14,24 +15,18 @@ export default function Projects() {
       <div className="wrapper">
         <section className="conteudo">
           <div className="photo">
-            <img
-              src={zencheck}
-              alt="zencheck"
-            />
+            <img src={zencheck} alt="Gás na Mão" />
           </div>
           <div className="container-text">
-            <h3>Zencheck</h3>
+            <h3>Gás na Mão</h3>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              egestas pretium nisi ac facilisis. Cras eget elementum tortor.
-              Suspendisse bibendum tellus at sagittis convallis. Phasellus
-              dictum ligula vitae augue placerat, vel suscipit felis auctor.
+              Desenvolvimento de um site para o cliente Gás na Mão, que é uma
+              empresa que deseja expandir seu negócio para atender de forma
+              online.
             </p>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              egestas pretium nisi ac facilisis. Cras eget elementum tortor.
-              Suspendisse bibendum tellus at sagittis convallis. Phasellus
-              dictum ligula vitae augue placerat, vel suscipit felis auctor.
+              Além do desenvolvimento de um site, também foi desenvolvido um app
+              onde o usuário pode realizar seu pedido de gás e água.
             </p>
           </div>
         </section>
@@ -56,22 +51,16 @@ export default function Projects() {
             </p>
           </div>
           <div className="photo">
-            <img
-              src={embrapa}
-              alt="embrapa"
-            />
+            <img src={embrapa} alt="embrapa" />
           </div>
         </section>
 
         <section className="conteudo">
           <div className="photo">
-            <img
-              src={aleatorio}
-              alt="aleatorio"
-            />
+            <img src={aleatorio} alt="aleatorio" />
           </div>
           <div className="container-text">
-            <h3>Aleatorio</h3>
+            <h3>Restaurante</h3>
             <p className="text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               egestas pretium nisi ac facilisis. Cras eget elementum tortor.
@@ -84,6 +73,26 @@ export default function Projects() {
               Suspendisse bibendum tellus at sagittis convallis. Phasellus
               dictum ligula vitae augue placerat, vel suscipit felis auctor.
             </p>
+          </div>
+        </section>
+
+        <section className="conteudo">
+          <div className="container-text">
+            <h3>EncontrARTE</h3>
+            <p className="text">
+              Uma plataforma pensada para ajudar no controle de medicação e
+              atividade de idosos, com o objetivo de melhorar a qualidade de
+              vida dos pacientes.
+            </p>
+
+            <p className="text">
+              Foi desenvolvido um app, que permite aos cuidadores dos idosos,
+              acompanhar e gerenciar a atividade e a rotina de medicamento dos
+              pacientes.
+            </p>
+          </div>
+          <div className="photo-encontrarte">
+            {/* <img src={encontrarte} alt="embrapa" /> */}
           </div>
         </section>
       </div>

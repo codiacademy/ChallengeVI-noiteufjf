@@ -137,7 +137,7 @@ export default function Home() {
           O que nossos clientes dizem
         </h1>
         {isDesktop ? (
-          <div id="desktop-cardstestimony">
+          <div id="desktop-cardstestimony" className="testimony-cards">
             <Cardtestimony
               paragraph={
                 'Parcerias Preciosas! Cada vez mais, confirmamos que as boas parcerias, são fundamentais para a realização efetiva de nossos planos... Só temos a agradecer, pelo profissionalismo, orientações e interações, sempre de forma gentil e atenciosa. Desejamos que a caminhada de vocês continue sendo sempre, repleta de merecidas conquistas!'
@@ -214,11 +214,16 @@ export default function Home() {
 
       {/* Entre em contato */}
       <section id="contact-section" className="home-section">
-        <h1 className="title">Entre em Contato</h1>
+        <h1 className="title">Contato</h1>
         <div className="contentContact">
           <div className="formCenter">
-            <ContactForm notify={notify} />
-            <ToastContainer />
+            <button>
+              <a href="#" className="link-button">
+                Entre em Contato
+              </a>
+            </button>
+            {/* <ContactForm notify={notify} /> */}
+            {/* <ToastContainer /> */}
           </div>
         </div>
       </section>

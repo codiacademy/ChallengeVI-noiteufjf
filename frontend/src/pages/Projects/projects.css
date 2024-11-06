@@ -66,6 +66,25 @@
   border-radius: 10px;
 }
 
+.photo-encontrarte {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../img/encontrarte.jpg');
+  background-size: cover;
+  background-position: center;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.photo-encontrarte img {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+}
+
 @media (max-width: 768px) {
   .conteudo {
     flex-direction: column;
@@ -77,5 +96,10 @@
 
   .conteudo:nth-child(2) {
     flex-direction: column-reverse;
+  }
+
+  .photo-encontrarte {
+    width: 100%;
+    height: 200px;
   }
 }
