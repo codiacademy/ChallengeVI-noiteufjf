@@ -178,7 +178,7 @@ export default function Home() {
                 paragraph={
                   'Parcerias Preciosas! Cada vez mais, confirmamos que as boas parcerias, são fundamentais para a realização efetiva de nossos planos... Só temos a agradecer, pelo profissionalismo, orientações e interações, sempre de forma gentil e atenciosa. Desejamos que a caminhada de vocês continue sendo sempre, repleta de merecidas conquistas!'
                 }
-                name={'Cristina do Carmo Silva Campos'}
+                name={'Cristina Campos'}
                 office={'CEO'}
                 enterprise={'EncontrARTE app'}
                 image={client1}
