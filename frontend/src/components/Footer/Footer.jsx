@@ -21,6 +21,15 @@ export default function Footer() {
             Equipe
           </Link>
         </div>
+        <div>
+          <Link
+            to="https://forms.gle/YszdvrQCN1mAFGYh6"
+            target="_blank"
+            className="links"
+          >
+            Contato
+          </Link>
+        </div>
       </section>
 
       <section id="footer-social-media">

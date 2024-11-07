@@ -1,8 +1,4 @@
 import embrapa from '../../img/embrapa.png';
-import zencheck from '../../img/zencheck.png';
-import aleatorio from '../../img/aleatorio.png';
-import encontrarte from '../../img/encontrarte.jpg';
-
 import './projects.css';
 export default function Projects() {
   return (
@@ -14,19 +10,21 @@ export default function Projects() {
 
       <div className="wrapper">
         <section className="conteudo">
-          <div className="photo">
-            <img src={zencheck} alt="Gás na Mão" />
+          <div className="photo-gas">
+            {/* <img src={zencheck} alt="Gás na Mão" /> */}
           </div>
           <div className="container-text">
             <h3>Gás na Mão</h3>
             <p className="text">
-              Desenvolvimento de um site para o cliente Gás na Mão, que é uma
-              empresa que deseja expandir seu negócio para atender de forma
-              online.
+              Criamos uma solução integrada para uma empresa de gás, incluindo
+              um aplicativo móvel e uma plataforma web que permitem aos clientes
+              realizar compras de forma prática e rápida.
             </p>
             <p className="text">
-              Além do desenvolvimento de um site, também foi desenvolvido um app
-              onde o usuário pode realizar seu pedido de gás e água.
+              Um painel administrativo fornece ao gestor ferramentas para
+              monitorar pedidos em tempo real, gerenciar estoque e controlar
+              vendas, oferecendo insights que ajudam a otimizar a operação e
+              aprimorar a tomada de decisões.
             </p>
           </div>
         </section>
@@ -50,28 +48,29 @@ export default function Projects() {
               produtores rurais, o software será entregue em até 12 meses.
             </p>
           </div>
-          <div className="photo">
+          <div className="photo-embrapa">
             <img src={embrapa} alt="embrapa" />
           </div>
         </section>
 
         <section className="conteudo">
-          <div className="photo">
-            <img src={aleatorio} alt="aleatorio" />
+          <div className="photo-restaurante">
+            {/* <img src={aleatorio} alt="aleatorio" /> */}
           </div>
           <div className="container-text">
-            <h3>Restaurante</h3>
+            <h3>Sistema de Controle de Perda de Carne para Restaurantes </h3>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              egestas pretium nisi ac facilisis. Cras eget elementum tortor.
-              Suspendisse bibendum tellus at sagittis convallis. Phasellus
-              dictum ligula vitae augue placerat, vel suscipit felis auctor.
+              Desenvolvemos uma aplicação web para ajudar restaurantes a
+              controlar perdas de carne, reduzindo desperdícios e otimizando o
+              estoque. Com autenticação segura e controle de acesso, o sistema
+              garante que apenas usuários autorizados gerenciem o inventário.
             </p>
             <p className="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              egestas pretium nisi ac facilisis. Cras eget elementum tortor.
-              Suspendisse bibendum tellus at sagittis convallis. Phasellus
-              dictum ligula vitae augue placerat, vel suscipit felis auctor.
+              O sistema emite alertas quando os itens estão abaixo do nível
+              mínimo recomendado e calcula a perda de carne durante o preparo.
+              Essa solução oferece ao restaurante uma visão detalhada do uso e
+              desperdício, auxiliando na redução de custos e no planejamento de
+              compras.
             </p>
           </div>
         </section>
@@ -87,12 +86,11 @@ export default function Projects() {
 
             <p className="text">
               Foi desenvolvido um app, que permite aos cuidadores dos idosos,
-              acompanhar e gerenciar a atividade e a rotina de medicamento dos
-              pacientes.
+              acompanhar e gerenciar a atividade e a rotina dos pacientes.
             </p>
           </div>
           <div className="photo-encontrarte">
-            {/* <img src={encontrarte} alt="embrapa" /> */}
+            {/* <img src={encontrarte} alt="encontrarte" /> */}
           </div>
         </section>
       </div>

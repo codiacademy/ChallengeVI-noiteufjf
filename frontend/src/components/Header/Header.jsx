@@ -71,6 +71,13 @@ export default function Header() {
           <Link to="/team" className="links">
             Equipe
           </Link>
+          <Link
+            to="https://forms.gle/YszdvrQCN1mAFGYh6"
+            target="_blank"
+            className="links"
+          >
+            Contato
+          </Link>
           {/* descomentar quando subir o backend */}
           {/* {user ? (
             <>

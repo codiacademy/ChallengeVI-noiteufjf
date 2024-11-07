@@ -66,6 +66,46 @@
   border-radius: 10px;
 }
 
+.photo-gas {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../img/gasnamao.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.photo-embrapa {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-embrapa img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.photo-restaurante {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../img/Logoquadrada.png');
+  background-size: cover;
+  background-position: center;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
 .photo-encontrarte {
   width: 80%;
   height: 300px;
@@ -77,12 +117,6 @@
   background-position: center;
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
-}
-
-.photo-encontrarte img {
-  width: 60%;
-  height: auto;
-  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -98,8 +132,22 @@
     flex-direction: column-reverse;
   }
 
-  .photo-encontrarte {
-    width: 100%;
-    height: 200px;
+  @media (max-width: 425px) {
+    .photo-gas {
+      width: 100%;
+      height: 200px;
+    }
+    .photo-embrapa {
+      width: 100%;
+      height: 200px;
+    }
+    .photo-restaurante {
+      width: 100%;
+      height: 200px;
+    }
+    .photo-encontrarte {
+      width: 100%;
+      height: 200px;
+    }
   }
 }
